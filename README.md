@@ -1,4 +1,4 @@
-# 👗 Comfy Nap
+# 🛌 Comfy Nap
 
 Ever wondered why Sims insist on keeping their shoes on when they flop down for a nap?
 It looks weird, feels uncomfortable, and definitely isn’t “comfy.”
