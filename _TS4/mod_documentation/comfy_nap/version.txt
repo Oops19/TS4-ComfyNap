@@ -1,0 +1,6 @@
+ComfyNap v0.0.1 for The Sims 4 v1.120.140 and S4CL v3.17
+Created on 2026-01-27
+v0.0.1
+    Initial version
+"""
+

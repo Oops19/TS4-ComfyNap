@@ -1,0 +1,28 @@
+{
+    'o19:comfy_nap_sim': {
+        'filter': {
+            'loading_tags': {'I', },
+            'instance': {'object', },
+            'tunings': {'object_sim', },  # 14965
+        },
+        'actions': {
+            'add_mixers': {
+                'xpath': "/I/L[@n='_super_affordances']",
+                'add': [{'tag': 'T', 'text': '12148471909530941517'}, ],  # o19_si_sim_remove_shoes based on sim_WakeUp
+            },
+        },
+    },
+    'o19:comfy_nap_buff_autonomy': {
+        'filter': {
+            'loading_tags': {'I', },
+            'instance': {'buff', },
+            'tunings': {'buff_Sim_IsSleeping', 'buff_Sim_IsSleeping', 'buff_Sim_IsSleeping', },  # 10094, 207020, 275549,
+        },
+        'actions': {
+            'add_mixers': {
+                'xpath': "/I/U[@n='game_effect_modifier']/L[@n='_game_effect_modifiers']/V[@t='autonomy_modifier']/U[@n='autonomy_modifier']/V[@n='provided_affordance_compatibility']/U[@n='literal']/V[@n='default_inclusion']/U[@n='exclude_all']/L[@n='include_affordances']",
+                'add': [{'tag': 'T', 'text': '12148471909530941517'}, ],  # o19_si_sim_remove_shoes based on sim_WakeUp
+            },
+        },
+    },
+}
